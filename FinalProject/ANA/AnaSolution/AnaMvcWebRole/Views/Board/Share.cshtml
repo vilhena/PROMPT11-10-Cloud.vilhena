@@ -1,0 +1,57 @@
+﻿@model Ana.Web.Models.ShareBoardModel
+@{
+    ViewBag.Title = "Share Board";
+}
+<div class="row">
+    <div class="span8 offset2">
+        <p>@Html.ActionLink("« Back to Board", "Details", "Board", null, new { @class = "btn btn-small" })</p>
+    </div>
+</div>
+<div class="row">
+    <div class="span2">
+        <p></p>
+    </div>
+    <div class="span8">
+        <div class="hero-grey">
+            <h2>
+                Share Board</h2>
+            <h3>@Html.DisplayFor(model => model.name)</h3>
+            
+            <div class="input-append">
+                <input type="text" id="search_user" data-provide="typeahead" data-source="" data-url="@Url.Action("SearchUser","Account")">
+                <a class="btn btn-success" id="share_user" href="@Url.Action("Share", "Board")"> Share</a>
+            </div>
+            
+            <div>    
+                        @if (Model.shared_users != null && Model.shared_users.Count() > 0)
+                        {
+                            <table class="table table-hover" id="shared_users_table">
+                                 <tbody>
+                                        @foreach (var user in Model.shared_users)
+                                        {
+                                            <tr>
+                                                <td>
+                                                    <span class="label">@user.name</span>
+                                                </td>
+                                                <td>
+                                                    <a class="btn btn-mini" remove_share data-user-id="@user.id" href="@Url.Action("RemoveUserShare", "Board", null)">
+                                                        Remove Share</a>
+                                                </td>
+                                            </tr>
+                                        }
+                                </tbody>
+                            </table>
+                        }
+                        else
+                        {
+                            <p>No Shared users</p>
+                        }
+                    
+            </div>
+        </div>
+    </div>
+    <div class="span2">
+        <p>
+        </p>
+    </div>
+</div>

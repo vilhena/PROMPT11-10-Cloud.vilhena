@@ -1,0 +1,29 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<div class="hero-unit">
+    <div class="row-fluid">
+        <div class="span10">
+            <h1>Another Notes Application!</h1>
+            <p>This is a simple application for managing your notes and tasks. It supports realtime collaboration and allows you to share your data. Don't forget to download our android application.</p>
+            @if (Request.IsAuthenticated)
+            {
+                <p>@Html.ActionLink("Go to My Boards »", "Index", "Board", null, new { @class = "btn btn-primary btn-large" })</p>
+            }
+            else
+            {
+                <p>@Html.ActionLink("Start using »", "Index", "Board", null, new { @class = "btn btn-success btn-large" })</p>
+            }
+        </div>
+        <div class="span2">
+            <img alt="notes icon" src="../../Content/another-notes-icon.png" class="img-polaroid" height="140px" width="140px" />
+        </div>
+    </div>
+    <div class="row-fluid">
+        <div class="span12">
+            <br />
+            <p><img alt="play store" src="../../Content/Play_Store_icon.png"  height="30px" width="30px" /> Download android app</p>
+        </div>
+    </div>
+</div>

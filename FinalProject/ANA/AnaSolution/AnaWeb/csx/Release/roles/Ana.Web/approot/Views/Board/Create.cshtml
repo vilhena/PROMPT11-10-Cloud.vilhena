@@ -1,0 +1,60 @@
+﻿@model Ana.Web.Models.BoardCreateOrEditModel
+
+@{
+    ViewBag.Title = "Create";
+}
+
+
+<div class="row">
+    <div class="span8 offset2">
+        <p>@Html.ActionLink("« Back to Boards", "Index", "Board", null, new { @class = "btn btn-small" })</p>
+    </div>
+</div>
+<div class="row">
+    <div class="span2">
+        <p></p>
+    </div>
+    <div class="span8">
+        <div class="hero-grey elevate">
+            <h2>Create</h2>
+            <p>
+                Use the form below to create a new board. 
+            </p>
+            @using (Html.BeginForm()) {
+                @Html.ValidationSummary(true)
+                <div>
+                    <fieldset>
+                        <legend>Board Information</legend>
+                            <div class="control-group">
+                                @Html.LabelFor(model => model.name)
+                                <div class="controls">
+                                    @Html.TextBoxFor(m => m.name, new { placeholder = "Board Name" })@Html.ValidationMessageFor(m => m.name)
+                                    @Html.ValidationMessageFor(model => model.name)
+                                </div>
+                            </div>
+                            <div class="control-group">
+                                @Html.LabelFor(model => model.description)
+                                <div class="controls">
+                                    @Html.TextAreaFor(m => m.description)@Html.ValidationMessageFor(m => m.description)
+                                    @Html.ValidationMessageFor(model => model.description)
+                                </div>
+                            </div>
+
+                            <div class="control-group">
+                                <div class="controls">
+                                <button type="submit" class="btn btn-large btn-primary">Create</button>
+                                @Html.ActionLink("Cancel", "Index", "Board", null, new { @class = "btn btn-large" })
+                                </div>
+                            </div>
+                    </fieldset>
+                </div>
+            }
+        </div>
+    </div>
+    <div class="span2">
+        <p></p>
+    </div>
+
+</div>
+
+

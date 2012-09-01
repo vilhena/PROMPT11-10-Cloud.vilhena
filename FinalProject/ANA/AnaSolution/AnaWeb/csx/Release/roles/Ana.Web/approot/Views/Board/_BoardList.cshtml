@@ -1,0 +1,62 @@
+﻿@model IEnumerable<Ana.Web.Models.BoardModel>
+<div class="container">
+    <div class="row">
+        <div class="span12">
+            <ul class="thumbnails">
+                @foreach (var item in Model)
+                {
+                    <li class="span4 grey elevate">
+                        <div class="thumbnail">
+                            <div class="row-fluid">
+                                <div class="span10">
+                                    <div class="caption">
+                                        <h3>@Html.DisplayFor(model => item.name)</h3>
+                                        <p>@Html.DisplayFor(model => item.description)</p>
+                                    </div>
+                                </div>
+                                <div class="span2">
+                                    <div class="btn-toolbar pull-right">
+                                        <div class="btn-group">
+                                            @Html.ActionLink("detail", "Details", "Board", new { id=item.id, url_name=item.url_name}, new { @class = "btn btn-primary" })
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="thumbnail">
+                            <div class="well" style="max-width: 340px; padding: 8px 0;">
+                                @if (item.cards == null || item.cards.Count() == 0)
+                                {
+                                    <ul>
+                                        <li>.. no cards found</li>
+                                    </ul>
+                                }
+                                else
+                                {
+                                    <ul>
+                                        @foreach (var card in item.cards)
+                                        {
+                                            <li>@Html.DisplayFor(model => card.name)</li>                    
+                                        }
+                                    </ul>
+                                }
+                            </div>
+                        </div>
+                        <div class="thumbnail">
+                            <div class="row-fluid">
+                                <div class="span12">
+                                    <div class="pull-right">
+                                        <p>
+                                            <small><i class="icon-user"></i>@Html.DisplayFor(modelItem => item.created_by) @@ @Html.DisplayFor(modelItem => item.created_at)
+                                            </small>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                }
+            </ul>
+        </div>
+    </div>
+</div>

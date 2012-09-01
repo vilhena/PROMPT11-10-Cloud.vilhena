@@ -1,0 +1,18 @@
+﻿@model IEnumerable<Ana.Web.Models.BoardModel>
+@{
+    ViewBag.Title = "Boards";
+}
+@if (Model != null && Model.Count() > 0)
+{
+    <div class="hero">
+            <p>@Html.ActionLink("Create a Board »", "Create", "Board", null, new { @class = "btn btn-success btn-large" })</p>
+    </div>
+    Html.RenderPartial("_BoardList", Model);
+}
+else
+{
+    <div class="hero-unit">
+        <p>Start Using ANA application. Create your first Board!</p>
+        <p>@Html.ActionLink("Create a Board »", "Create", "Board", null, new { @class = "btn btn-success btn-large" })</p>
+    </div>
+}

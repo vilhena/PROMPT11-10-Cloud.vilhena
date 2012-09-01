@@ -1,0 +1,67 @@
+﻿@model Ana.Web.Models.CardModel
+@{
+    var is_shared = (bool)ViewData["is_shared"];
+}
+<li class="span4 postit elevate">
+    <div class="thumbnail">
+        <div class="row-fluid">
+            <div class="span12">
+                <div class="btn-toolbar pull-left">
+                    <div class="btn-group">
+                        @Html.ActionLink(Model.name, "Details", "Card", new { id = Model.id, url_name = Model.url_name }, new { @class = "btn btn-mini" })
+                        @if (Model.is_done)
+                        {
+                            @ButtonLinkIcon("", "Done", "Card", new { id = Model.id, url_name = Model.url_name }, "icon-ok icon-white", "btn btn-mini btn-success","set_done")
+                        }
+                        else
+                        {
+                            @ButtonLinkIcon("", "Done", "Card", new { id = Model.id, url_name = Model.url_name }, "icon-ok", "btn btn-mini", "set_done")
+                        }
+                        
+                    </div>
+                    <div class="btn-group">
+                      <a class="btn btn-mini dropdown-toggle" data-toggle="dropdown" href="#">
+                        <i class="icon-edit"></i>
+                        <span class="caret"></span>
+                      </a>
+                      <ul class="dropdown-menu">
+                        <li>
+                            @ButtonLinkIcon("details", "Details", "Card", new { id = Model.id, url_name = Model.url_name }, "icon-list-alt")
+                        </li>
+                        <li>
+                            @ButtonLinkIcon("edit", "Edit", "Card", new { id = Model.id, url_name = Model.url_name }, "icon-pencil")
+                        </li>
+                        @if (!is_shared)
+                        { 
+                        <li>
+                            @ButtonLinkIcon("delete", "Delete", "Card", new { id = Model.id, url_name = Model.url_name }, "icon-trash")
+                        </li>
+                        }
+                      </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="thumbnail" style="height: 170px">
+        <p>@Html.DisplayFor(model => Model.text)</p>
+    </div>
+    <div class="thumbnail">
+        <div class="row-fluid">
+            <div class="span10">
+            </div>
+            <div class="span2">
+                <div class="pull-right">
+                    1
+                </div>
+            </div>
+        </div>
+    </div>
+</li>
+
+@helper ButtonLinkIcon(string linkText, string action, string controller, object routeValues, string icon, string btnclass = "", string attr = "")
+{
+    <a class="@btnclass" @attr href="@Url.Action(action, controller, routeValues)"><i class="@icon"></i> @linkText</a>
+}
+
+

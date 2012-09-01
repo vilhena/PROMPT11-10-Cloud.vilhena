@@ -1,0 +1,10 @@
+C:\Users\gnvilhena\PROMPT\uc03\repos\PROMPT11-10-Cloud\FinalProject\ANA\AnaSolution\AnaWorkerRole\bin\Debug\AnaWorkerRole.dll.config
+C:\Users\gnvilhena\PROMPT\uc03\repos\PROMPT11-10-Cloud\FinalProject\ANA\AnaSolution\AnaWorkerRole\bin\Debug\AnaWorkerRole.dll
+C:\Users\gnvilhena\PROMPT\uc03\repos\PROMPT11-10-Cloud\FinalProject\ANA\AnaSolution\AnaWorkerRole\bin\Debug\AnaWorkerRole.pdb
+C:\Users\gnvilhena\PROMPT\uc03\repos\PROMPT11-10-Cloud\FinalProject\ANA\AnaSolution\AnaWorkerRole\bin\Debug\Microsoft.WindowsAzure.Diagnostics.dll
+C:\Users\gnvilhena\PROMPT\uc03\repos\PROMPT11-10-Cloud\FinalProject\ANA\AnaSolution\AnaWorkerRole\bin\Debug\Microsoft.WindowsAzure.StorageClient.dll
+C:\Users\gnvilhena\PROMPT\uc03\repos\PROMPT11-10-Cloud\FinalProject\ANA\AnaSolution\AnaWorkerRole\bin\Debug\Microsoft.WindowsAzure.Diagnostics.xml
+C:\Users\gnvilhena\PROMPT\uc03\repos\PROMPT11-10-Cloud\FinalProject\ANA\AnaSolution\AnaWorkerRole\bin\Debug\Microsoft.WindowsAzure.StorageClient.xml
+C:\Users\gnvilhena\PROMPT\uc03\repos\PROMPT11-10-Cloud\FinalProject\ANA\AnaSolution\AnaWorkerRole\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\gnvilhena\PROMPT\uc03\repos\PROMPT11-10-Cloud\FinalProject\ANA\AnaSolution\AnaWorkerRole\obj\Debug\AnaWorkerRole.dll
+C:\Users\gnvilhena\PROMPT\uc03\repos\PROMPT11-10-Cloud\FinalProject\ANA\AnaSolution\AnaWorkerRole\obj\Debug\AnaWorkerRole.pdb

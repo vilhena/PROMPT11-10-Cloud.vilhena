@@ -1,0 +1,35 @@
+﻿@model Ana.Web.Models.UserModel
+
+@{
+    ViewBag.Title = "Profile";
+}
+
+<div class="row">
+    <div class="span2">
+        <p>@Html.HiddenFor(m=>m.id)</p>
+    </div>
+    <div class="span8">
+        <div class="hero-grey elevate">
+            <h2>@Html.DisplayFor(m => m.name, new { placeholder = "User Name" })</h2>
+            <hr />
+            <p>
+            </p>
+            <div class="control-group">
+                @Html.LabelFor(m=>m.email)
+                <div class="controls">
+                    @Html.DisplayFor(m => m.email)
+                </div>
+            </div>
+            <div class="control-group">
+                @Html.LabelFor(m=>m.identity_provider)
+                <div class="controls">
+                    @Html.DisplayFor(m => m.identity_provider)
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="span2">
+        <p></p>
+    </div>
+
+</div>

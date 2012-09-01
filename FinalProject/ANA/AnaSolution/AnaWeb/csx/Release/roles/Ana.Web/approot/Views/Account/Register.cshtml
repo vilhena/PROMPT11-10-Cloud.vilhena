@@ -1,0 +1,71 @@
+﻿@model Ana.Web.Models.RegisterModel
+
+@{
+    ViewBag.Title = "Register";
+    Layout = "~/Views/Shared/_LayoutNoMenu.cshtml";
+}
+
+
+<div class="row">
+    <div class="span2">
+    <p></p>
+    </div>
+    <div class="span8">
+        <div class="hero-grey elevate">
+            <h2>Create a New Account</h2>
+            <p>
+                Use the form below to create a new account. 
+            </p>
+            <p>
+                Passwords are required to be a minimum of @Membership.MinRequiredPasswordLength characters in length.
+            </p>
+
+            @using (Html.BeginForm("Register", "Account", null, FormMethod.Post, new { @class = "form-horizontal" }))
+            {
+                @Html.ValidationSummary(true, "Account creation was unsuccessful. Please correct the errors and try again.", new { @class = "alert alert-error" })   
+                <div>
+                    <fieldset>
+                        <legend>Account Information</legend>
+                        <div class="control-group">
+                            @Html.LabelFor(m => m.UserName)
+                            <div class="controls">
+                                @Html.TextBoxFor(m => m.UserName, new { placeholder = "username" })@Html.ValidationMessageFor(m => m.UserName)
+                            </div>
+                        </div>
+                        <div class="control-group">
+                            @Html.LabelFor(m => m.Email)
+                            <div class="controls">
+                                <div class="input-prepend"><span class="add-on">@@</span>@Html.TextBoxFor(m => m.Email, new { placeholder = "email@domain.com" })</div>
+                                @Html.ValidationMessageFor(m => m.Email)
+                            </div>
+                        </div>
+                        <div class="control-group">
+                            @Html.LabelFor(m => m.Password)
+                            <div class="controls">
+                                @Html.PasswordFor(m => m.Password)
+                                @Html.ValidationMessageFor(m => m.Password)
+                            </div>
+                        </div>
+                        <div class="control-group">
+                            @Html.LabelFor(m => m.ConfirmPassword)
+                            <div class="controls">
+                                @Html.PasswordFor(m => m.ConfirmPassword)
+                                @Html.ValidationMessageFor(m => m.ConfirmPassword)
+                            </div>
+                        </div>
+                        <div class="control-group">
+                            <div class="controls">
+                                <button type="submit" class="btn btn-large btn-primary">Register</button>
+                            </div>
+                        </div>
+                    </fieldset>
+                </div>
+            }
+
+        </div>
+    </div>
+    <div class="span2">
+    <p></p>
+    </div>
+</div>
+

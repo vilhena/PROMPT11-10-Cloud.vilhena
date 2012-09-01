@@ -1,0 +1,30 @@
+﻿@model Ana.Web.Models.BoardModel
+<div class="well" style="max-width: 340px; padding: 8px 0;">
+    <div id="board-menu-items">
+        <ul class="nav nav-list">
+            <li class="nav-header">My Boards</li>
+            @if (Model.boards != null)
+            {
+                foreach (var item in Model.boards)
+                {
+                    <li>@ActionLinkIcon(item.name, "Details", "Board", new { id = item.id, url_name = item.url_name, user_name = "" }, "icon-chevron-left")</li>
+                }
+            }
+            <li class="nav-header">Shared Boards</li>
+            @if (Model.shared_boards != null)
+            {
+                foreach (var item in Model.shared_boards)
+                {
+                    <li>@ActionLinkIcon(item.name, "Details", "Board", new { id = item.id, url_name = item.url_name, user_name = item.user_name }, "icon-chevron-left")</li>
+                }
+            }
+            <li class="divider"></li>
+            <li>@ActionLinkIcon("Help", "Help", "Home", null, "icon-help-left")</li>
+        </ul>
+    </div>
+</div>
+@helper ActionLinkIcon(string linkText, string action, string controller, object routeValues, string icon){
+    <a href="@Url.Action(action, controller, routeValues)"><i class="@icon"></i> @linkText</a>
+}
+
+

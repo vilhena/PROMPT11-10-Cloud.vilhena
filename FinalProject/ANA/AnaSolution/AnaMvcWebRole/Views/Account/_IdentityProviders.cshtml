@@ -1,0 +1,9 @@
+﻿@model IEnumerable<Ana.Web.Models.IdentityProviderModel>
+           
+@if (Model != null)
+{
+    foreach (var identityProvider in Model)
+    {
+        <button class="btn" onclick="window.location='@Html.Raw(identityProvider.LoginUrl)'">@identityProvider.Name</button>
+    }
+}

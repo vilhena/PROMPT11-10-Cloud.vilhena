@@ -1,0 +1,86 @@
+﻿@model Ana.Web.Models.LogOnModel
+@{
+    ViewBag.Title = "Log On";
+    Layout = "~/Views/Shared/_LayoutNoMenu.cshtml";
+}
+<div class="row">
+    <div class="span2">
+        <p>
+        </p>
+    </div>
+    <div class="span8">
+        <div class="hero-grey elevate">
+            <h2>
+                Log On</h2>
+            <p>
+                Please enter your user name and password. @Html.ActionLink("Register", "Register")
+                if you don't have an account.
+                @Html.ValidationSummary(true, "Login was unsuccessful. Please correct the errors and try again.")
+                @if (ViewData["HasClaim"] != null)
+                {
+                    <div id="AssociationMessage">
+                        <div id="AssociateMessageText">
+                            Please login to associate your account</div>
+                        <div id="AssociateMessageActions">
+                            <button id="AssociateCancel">
+                                Cancel</button></div>
+                        <div class="clear">
+                        </div>
+                    </div>
+                    <div id="AssociationMessageRegister">
+                        <div id="AssociateMessageRegisterText">
+                            Click Register if you don't already have an account</div>
+                        <div id="AssociateMessageRegisterActions">
+                            <button id="AssociateRegister">
+                                Register</button></div>
+                        <div class="clear">
+                        </div>
+                    </div>
+
+                }
+            </p>
+                <fieldset>
+                    <legend>Logon with a Provider</legend>
+                    <div class="control-group">
+                        @Html.Partial("_IdentityProviders", Model.Providers)
+                    </div>
+                </fieldset>
+            @using (Html.BeginForm("LogOn", "Account", null, FormMethod.Post, new { @class = "form-horizontal" }))
+            {
+                
+                <fieldset>
+                    <legend>Or Logon with Account</legend>
+                            <div class="control-group">
+                                @Html.LabelFor(m => m.UserName)
+                                <div class="controls">
+                                    @Html.TextBoxFor(m => m.UserName)
+                                    @Html.ValidationMessageFor(m => m.UserName)
+                                </div>
+                            </div>
+                            <div class="control-group">
+                                @Html.LabelFor(m => m.Password)
+                                <div class="controls">
+                                    @Html.PasswordFor(m => m.Password)
+                                    @Html.ValidationMessageFor(m => m.Password)
+                                </div>
+                            </div>
+                            <div class="control-group">
+                                <div class="controls">
+                                <label class="checkbox">
+                                  @Html.CheckBoxFor(m => m.RememberMe)
+                                   @Html.LabelFor(m => m.RememberMe)
+                                </label>
+                                </div>
+                            </div>
+                            <div class="control-group">
+                                <div class="controls">
+                                    <button type="submit" class="btn btn-large btn-success" value="LogOn">Log On</button>
+                                </div>
+                            </div>
+                       
+                </fieldset>    
+            }
+        </div>
+    </div>
+</div>
+

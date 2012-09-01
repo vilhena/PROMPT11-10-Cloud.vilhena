@@ -1,0 +1,703 @@
+<Configuration>
+  <SettingsComponent>
+    <string />
+    <integer />
+    <boolean>
+      <setting name="livetemplates.csharp.usevar">True</setting>
+      <setting name="SolutionAnalysisEnabled">False</setting>
+    </boolean>
+  </SettingsComponent>
+  <RecentFiles>
+    <RecentFiles>
+      <File id="F7DF7EF1-1319-40BD-8B81-8D3B267E8429/d:Managers/f:BaseManager.cs" caret="0" fromTop="0" />
+      <File id="F3EF0287-8279-4D72-824B-146A229C0F2F/f:Global.asax.cs" caret="1141" fromTop="16" />
+      <File id="F3EF0287-8279-4D72-824B-146A229C0F2F/d:ControllersApi/f:BoardController.cs" caret="911" fromTop="19" />
+      <File id="F3EF0287-8279-4D72-824B-146A229C0F2F/d:ControllersApi/f:CardController.cs" caret="1076" fromTop="24" />
+      <File id="3FADA9E2-0111-4ABD-B352-D22429BFC5BA/d:Azure/d:Storage/f:Developer.cs" caret="157" fromTop="1" />
+      <File id="3FADA9E2-0111-4ABD-B352-D22429BFC5BA/d:Azure/d:Storage/f:Card.cs" caret="147" fromTop="6" />
+      <File id="336C52DD-E26A-4145-9E76-8233A3177E7C/d:Repository/f:IGrantRepository.cs" caret="248" fromTop="9" />
+      <File id="336C52DD-E26A-4145-9E76-8233A3177E7C/d:Repository/f:IBoardRepository.cs" caret="0" fromTop="0" />
+      <File id="336C52DD-E26A-4145-9E76-8233A3177E7C/d:Repository/f:IDeveloperRepository.cs" caret="256" fromTop="9" />
+      <File id="8A930E6F-91D2-42EC-AB37-CE68CB9E2148/d:Azure/f:GrantRepository.cs" caret="451" fromTop="15" />
+      <File id="F3EF0287-8279-4D72-824B-146A229C0F2F/d:Controllers/f:AccountController.cs" caret="14208" fromTop="15" />
+      <File id="3FADA9E2-0111-4ABD-B352-D22429BFC5BA/d:Azure/d:Storage/f:Grant.cs" caret="259" fromTop="10" />
+      <File id="336C52DD-E26A-4145-9E76-8233A3177E7C/d:Business/f:IUserManager.cs" caret="271" fromTop="12" />
+      <File id="F3DDBE9A-BC95-42D5-9146-22EA1CC8D1D4/f:ObjectDumper.cs" caret="341" fromTop="2" />
+      <File id="8A930E6F-91D2-42EC-AB37-CE68CB9E2148/d:Azure/f:DeveloperRepository.cs" caret="399" fromTop="14" />
+      <File id="2367A0A8-14AE-4527-8102-0AE64C2B044F/f:StructureMapControllerActivator.cs" caret="548" fromTop="11" />
+      <File id="2367A0A8-14AE-4527-8102-0AE64C2B044F/f:DependencyController.cs" caret="3477" fromTop="16" />
+      <File id="F3EF0287-8279-4D72-824B-146A229C0F2F/d:Views/d:Developer/f:Index.cshtml" caret="1620" fromTop="15" />
+      <File id="F3EF0287-8279-4D72-824B-146A229C0F2F/d:Views/d:Account/f:LogOn.cshtml" caret="483" fromTop="13" />
+      <File id="F3EF0287-8279-4D72-824B-146A229C0F2F/d:Views/d:Developer/f:Edit.cshtml" caret="7" fromTop="0" />
+      <File id="3FADA9E2-0111-4ABD-B352-D22429BFC5BA/d:Mvc/d:Models/f:OAuthModels.cs" caret="201" fromTop="2" />
+      <File id="336C52DD-E26A-4145-9E76-8233A3177E7C/d:Business/f:IOAuth2Manager.cs" caret="425" fromTop="12" />
+      <File id="F3EF0287-8279-4D72-824B-146A229C0F2F/d:Controllers/f:DeveloperController.cs" caret="886" fromTop="15" />
+      <File id="F3EF0287-8279-4D72-824B-146A229C0F2F/d:Views/d:OAuth2/f:Auth.cshtml" caret="888" fromTop="10" />
+      <File id="F3EF0287-8279-4D72-824B-146A229C0F2F/d:Scripts/f:ana.js" caret="581" fromTop="11" />
+      <File id="F3EF0287-8279-4D72-824B-146A229C0F2F/d:ControllersApi/f:OAuth2Controller.cs" caret="468" fromTop="4" />
+      <File id="F7DF7EF1-1319-40BD-8B81-8D3B267E8429/d:Managers/f:UserManager.cs" caret="1688" fromTop="4" />
+      <File id="F7DF7EF1-1319-40BD-8B81-8D3B267E8429/d:Managers/f:OAuth2Manager.cs" caret="6345" fromTop="5" />
+      <File id="F3EF0287-8279-4D72-824B-146A229C0F2F/d:Authentication/f:OAuth2Attribute.cs" caret="705" fromTop="8" />
+      <File id="F3EF0287-8279-4D72-824B-146A229C0F2F/f:Web.config" caret="185" fromTop="2" />
+    </RecentFiles>
+    <RecentEdits>
+      <File id="F7DF7EF1-1319-40BD-8B81-8D3B267E8429/d:Managers/f:OAuth2Manager.cs" caret="3868" fromTop="12" />
+      <File id="F7DF7EF1-1319-40BD-8B81-8D3B267E8429/d:Managers/f:OAuth2Manager.cs" caret="3382" fromTop="8" />
+      <File id="F7DF7EF1-1319-40BD-8B81-8D3B267E8429/d:Managers/f:OAuth2Manager.cs" caret="4297" fromTop="20" />
+      <File id="F3EF0287-8279-4D72-824B-146A229C0F2F/d:ControllersApi/f:OAuth2Controller.cs" caret="1705" fromTop="16" />
+      <File id="F7DF7EF1-1319-40BD-8B81-8D3B267E8429/d:Managers/f:OAuth2Manager.cs" caret="4974" fromTop="11" />
+      <File id="F7DF7EF1-1319-40BD-8B81-8D3B267E8429/d:Managers/f:OAuth2Manager.cs" caret="5646" fromTop="12" />
+      <File id="F7DF7EF1-1319-40BD-8B81-8D3B267E8429/d:Managers/f:OAuth2Manager.cs" caret="5648" fromTop="18" />
+      <File id="F7DF7EF1-1319-40BD-8B81-8D3B267E8429/d:Managers/f:OAuth2Manager.cs" caret="4806" fromTop="1" />
+      <File id="F7DF7EF1-1319-40BD-8B81-8D3B267E8429/d:Managers/f:OAuth2Manager.cs" caret="5146" fromTop="15" />
+      <File id="F7DF7EF1-1319-40BD-8B81-8D3B267E8429/d:Managers/f:OAuth2Manager.cs" caret="4990" fromTop="8" />
+      <File id="336C52DD-E26A-4145-9E76-8233A3177E7C/d:Business/f:IOAuth2Manager.cs" caret="425" fromTop="12" />
+      <File id="F3EF0287-8279-4D72-824B-146A229C0F2F/d:ControllersApi/f:OAuth2Controller.cs" caret="2135" fromTop="7" />
+      <File id="F3EF0287-8279-4D72-824B-146A229C0F2F/d:ControllersApi/f:OAuth2Controller.cs" caret="2435" fromTop="19" />
+      <File id="F7DF7EF1-1319-40BD-8B81-8D3B267E8429/d:Managers/f:OAuth2Manager.cs" caret="7116" fromTop="13" />
+      <File id="F3EF0287-8279-4D72-824B-146A229C0F2F/d:Views/d:OAuth2/f:Auth.cshtml" caret="888" fromTop="10" />
+      <File id="F3EF0287-8279-4D72-824B-146A229C0F2F/d:Authentication/f:OAuth2Attribute.cs" caret="1319" fromTop="19" />
+      <File id="F3EF0287-8279-4D72-824B-146A229C0F2F/d:Authentication/f:OAuth2Attribute.cs" caret="1267" fromTop="18" />
+      <File id="F3EF0287-8279-4D72-824B-146A229C0F2F/d:Authentication/f:OAuth2Attribute.cs" caret="1267" fromTop="11" />
+      <File id="F3EF0287-8279-4D72-824B-146A229C0F2F/d:Authentication/f:OAuth2Attribute.cs" caret="1267" fromTop="18" />
+      <File id="F3EF0287-8279-4D72-824B-146A229C0F2F/d:Authentication/f:OAuth2Attribute.cs" caret="1267" fromTop="11" />
+      <File id="F3EF0287-8279-4D72-824B-146A229C0F2F/d:Authentication/f:OAuth2Attribute.cs" caret="1267" fromTop="11" />
+      <File id="F3EF0287-8279-4D72-824B-146A229C0F2F/d:Authentication/f:OAuth2Attribute.cs" caret="1267" fromTop="5" />
+      <File id="F3EF0287-8279-4D72-824B-146A229C0F2F/d:Authentication/f:OAuth2Attribute.cs" caret="1267" fromTop="0" />
+      <File id="F3EF0287-8279-4D72-824B-146A229C0F2F/d:Authentication/f:OAuth2Attribute.cs" caret="1267" fromTop="8" />
+      <File id="F3EF0287-8279-4D72-824B-146A229C0F2F/d:Authentication/f:OAuth2Attribute.cs" caret="639" fromTop="8" />
+      <File id="F3EF0287-8279-4D72-824B-146A229C0F2F/d:ControllersApi/f:OAuth2Controller.cs" caret="468" fromTop="4" />
+      <File id="F3EF0287-8279-4D72-824B-146A229C0F2F/d:Authentication/f:OAuth2Attribute.cs" caret="874" fromTop="9" />
+      <File id="F7DF7EF1-1319-40BD-8B81-8D3B267E8429/d:Managers/f:OAuth2Manager.cs" caret="6345" fromTop="11" />
+      <File id="F3EF0287-8279-4D72-824B-146A229C0F2F/d:Authentication/f:OAuth2Attribute.cs" caret="1011" fromTop="8" />
+      <File id="F3EF0287-8279-4D72-824B-146A229C0F2F/f:Web.config" caret="7684" fromTop="14" />
+    </RecentEdits>
+  </RecentFiles>
+  <NAntValidationSettings>
+    <NAntPath value="" />
+  </NAntValidationSettings>
+  <UnitTestRunner>
+    <Providers />
+  </UnitTestRunner>
+  <UnitTestRunnerNUnit>
+    <NUnitInstallDir IsNull="False">
+    </NUnitInstallDir>
+    <UseAddins>Never</UseAddins>
+  </UnitTestRunnerNUnit>
+  <CompletionStatisticsManager>
+    <ItemStatistics item="Default">
+      <Item value="Controller`0" priority="0" />
+      <Item value="string" priority="78" />
+      <Item value="public" priority="34" />
+      <Item value="Authorize" priority="4" />
+      <Item value="IIdentity`0" priority="0" />
+      <Item value="ActionResult`0" priority="9" />
+      <Item value="View`0" priority="9" />
+      <Item value="List" priority="8" />
+      <Item value="Card`0" priority="2" />
+      <Item value="prop" priority="65" />
+      <Item value="User`0" priority="14" />
+      <Item value="List`0" priority="0" />
+      <Item value="DateTime`0" priority="6" />
+      <Item value="return" priority="29" />
+      <Item value="HttpPost" priority="4" />
+      <Item value="listCreateModel" priority="0" />
+      <Item value="if" priority="22" />
+      <Item value="DataType`0" priority="1" />
+      <Item value="false" priority="2" />
+      <Item value="new" priority="37" />
+      <Item value="board" priority="11" />
+      <Item value="newlist" priority="1" />
+      <Item value="IDictionary" priority="0" />
+      <Item value="int" priority="1" />
+      <Item value="Repository" priority="0" />
+      <Item value="void" priority="9" />
+      <Item value="Board`0" priority="1" />
+      <Item value="var" priority="22" />
+      <Item value="rep" priority="2" />
+      <Item value="newBoard" priority="1" />
+      <Item value="private" priority="8" />
+      <Item value="TableServiceContext`0" priority="1" />
+      <Item value="ctor" priority="6" />
+      <Item value="_account" priority="1" />
+      <Item value="CloudStorageAccount`0" priority="0" />
+      <Item value="_tableClient" priority="1" />
+      <Item value="routes" priority="2" />
+      <Item value="UrlName" priority="1" />
+      <Item value="storageBoard" priority="2" />
+      <Item value="Board" priority="0" />
+      <Item value="bool" priority="3" />
+      <Item value="_tableServiceCtx" priority="1" />
+      <Item value="where" priority="1" />
+      <Item value="TableServiceEntity`0" priority="0" />
+      <Item value="T`0" priority="1" />
+      <Item value="typeof" priority="1" />
+      <Item value="throw" priority="3" />
+      <Item value="_tableName" priority="3" />
+      <Item value="rowKey" priority="0" />
+      <Item value="IEnumerable" priority="6" />
+      <Item value="BoardAzureModel`0" priority="0" />
+      <Item value="GetByPartitionKey`0" priority="0" />
+      <Item value="username" priority="1" />
+      <Item value="static" priority="4" />
+      <Item value="class" priority="6" />
+      <Item value="Guid`0" priority="4" />
+      <Item value="HrdIdentityProvider`0" priority="1" />
+      <Item value="UserIdentity`0" priority="1" />
+      <Item value="UserIdentities" priority="1" />
+      <Item value="List&lt;UserIdentity&gt;" priority="0" />
+      <Item value="UserIdentity" priority="1" />
+      <Item value="IdentityId" priority="2" />
+      <Item value="UserId" priority="1" />
+      <Item value="IdentityProvider" priority="1" />
+      <Item value="UsersStorage`0" priority="4" />
+      <Item value="u" priority="12" />
+      <Item value="claim" priority="14" />
+      <Item value="id" priority="13" />
+      <Item value="String`0" priority="0" />
+      <Item value="storage" priority="4" />
+      <Item value="IdentityValue" priority="0" />
+      <Item value="Guid" priority="1" />
+      <Item value="LogOnModel`0" priority="0" />
+      <Item value="Providers" priority="0" />
+      <Item value="hrdIdentityProviders" priority="0" />
+      <Item value="logon" priority="0" />
+      <Item value="ProcessInfo`0" priority="0" />
+      <Item value="ClaimTypes`0" priority="1" />
+      <Item value="ProviderNiceName`0" priority="0" />
+      <Item value="Membership`0" priority="2" />
+      <Item value="Redirect`0" priority="0" />
+      <Item value="RedirectToAction`0" priority="2" />
+      <Item value="Email" priority="5" />
+      <Item value="Name" priority="6" />
+      <Item value="RegisterClaimsModel`0" priority="1" />
+      <Item value="RegisterClaimsModel" priority="0" />
+      <Item value="model" priority="7" />
+      <Item value="ClaimsPrincipal`0" priority="0" />
+      <Item value="object" priority="2" />
+      <Item value="returnUrl" priority="0" />
+      <Item value="GenericIdentity`0" priority="1" />
+      <Item value="name" priority="6" />
+      <Item value="base" priority="2" />
+      <Item value="identity" priority="3" />
+      <Item value="Id" priority="1" />
+      <Item value="user" priority="30" />
+      <Item value="using" priority="0" />
+      <Item value="System" priority="7" />
+      <Item value="Linq" priority="0" />
+      <Item value="IdentityProviderModel`0" priority="0" />
+      <Item value="hrd" priority="4" />
+      <Item value="LoginUrl" priority="0" />
+      <Item value="ImageUrl" priority="0" />
+      <Item value="LogoutUrl" priority="0" />
+      <Item value="IdentityClaim`0" priority="0" />
+      <Item value="interface" priority="1" />
+      <Item value="IdentityNotMappedException`0" priority="0" />
+      <Item value="TableStorageRoleProvider`0" priority="0" />
+      <Item value="is" priority="0" />
+      <Item value="else" priority="1" />
+      <Item value="IUserProvider`0" priority="1" />
+      <Item value="userProvider" priority="2" />
+      <Item value="_userProvider" priority="1" />
+      <Item value="Ana" priority="1" />
+      <Item value="Business" priority="0" />
+      <Item value="Managers" priority="0" />
+      <Item value="HttpContextUserProvider`0" priority="0" />
+      <Item value="_boardManager" priority="3" />
+      <Item value="boards" priority="2" />
+      <Item value="BoardModel`0" priority="0" />
+      <Item value="b" priority="13" />
+      <Item value="url_name" priority="3" />
+      <Item value="description" priority="0" />
+      <Item value="created_by" priority="0" />
+      <Item value="created_at" priority="0" />
+      <Item value="updated_at" priority="0" />
+      <Item value="updated_by" priority="0" />
+      <Item value="cards" priority="0" />
+      <Item value="boardRepository" priority="1" />
+      <Item value="_boardRepository" priority="6" />
+      <Item value="this" priority="0" />
+      <Item value="_userRepository" priority="3" />
+      <Item value="ua" priority="1" />
+      <Item value="WindowsAuthenticationEventArgs`0" priority="0" />
+      <Item value="wrapper" priority="5" />
+      <Item value="SetCurrentUser`0" priority="0" />
+      <Item value="User" priority="1" />
+      <Item value="_userManager" priority="9" />
+      <Item value="BindingFlags`0" priority="0" />
+      <Item value="_cardManager" priority="2" />
+      <Item value="_cardRepository" priority="3" />
+      <Item value="c" priority="3" />
+      <Item value="board_id" priority="3" />
+      <Item value="card" priority="9" />
+      <Item value="JsonResult`0" priority="3" />
+      <Item value="true" priority="2" />
+      <Item value="state" priority="0" />
+      <Item value="UserModel`0" priority="2" />
+      <Item value="UserModel" priority="0" />
+      <Item value="JsonResult" priority="0" />
+      <Item value="Json`0" priority="1" />
+      <Item value="users" priority="1" />
+      <Item value="ParallelEnumerable`0" priority="0" />
+      <Item value="boardModel" priority="6" />
+      <Item value="mySharedBoards" priority="1" />
+      <Item value="ShareBoardModel`0" priority="0" />
+      <Item value="_boardUserShareRepository" priority="3" />
+      <Item value="usb" priority="0" />
+      <Item value="bsu" priority="0" />
+      <Item value="BoardResumeModel`0" priority="3" />
+      <Item value="sb" priority="1" />
+      <Item value="foreach" priority="0" />
+      <Item value="boardUserShare" priority="2" />
+      <Item value="GetBaseBoard`0" priority="2" />
+      <Item value="sharedBoardsList" priority="0" />
+      <Item value="BoardResumeModel" priority="0" />
+      <Item value="us" priority="3" />
+      <Item value="GetMySharedBoards`0" priority="0" />
+      <Item value="BoardName" priority="0" />
+      <Item value="UserName" priority="0" />
+      <Item value="BoardUrlName" priority="0" />
+      <Item value="_userBoardShareRepository" priority="1" />
+      <Item value="userShares" priority="1" />
+      <Item value="cardUpdate" priority="5" />
+      <Item value="CurrentUser`0" priority="3" />
+      <Item value="boardManager" priority="0" />
+      <Item value="IDependencyResolver`0" priority="0" />
+      <Item value="Web" priority="3" />
+      <Item value="Http" priority="1" />
+      <Item value="Dispatcher" priority="1" />
+      <Item value="DefaultHttpControllerActivator`0" priority="0" />
+      <Item value="Dependencies" priority="2" />
+      <Item value="HttpConfiguration`0" priority="0" />
+      <Item value="Services" priority="0" />
+      <Item value="HttpApplication`0" priority="1" />
+      <Item value="DefaultHttpControllerTypeResolver`0" priority="0" />
+      <Item value="ObjectFactory`0" priority="0" />
+      <Item value="IUserManager`0" priority="0" />
+      <Item value="userManager" priority="1" />
+      <Item value="Security" priority="1" />
+      <Item value="Authentication" priority="0" />
+      <Item value="Principal" priority="0" />
+      <Item value="GenericPrincipal`0" priority="0" />
+      <Item value="null" priority="11" />
+      <Item value="HttpRequest`0" priority="0" />
+      <Item value="Domain" priority="1" />
+      <Item value="WeakReference`0" priority="0" />
+      <Item value="_user" priority="2" />
+      <Item value="as" priority="0" />
+      <Item value="_oauth2Manager" priority="8" />
+      <Item value="oauth2Manager" priority="1" />
+      <Item value="Developer`0" priority="2" />
+      <Item value="Grant`0" priority="3" />
+      <Item value="OAuthModel`0" priority="5" />
+      <Item value="IDeveloperRepository`0" priority="2" />
+      <Item value="IGrantRepository`0" priority="2" />
+      <Item value="developerRepository" priority="1" />
+      <Item value="grantRepository" priority="1" />
+      <Item value="_developerRepository" priority="6" />
+      <Item value="_grantRepository" priority="6" />
+      <Item value="authModel" priority="8" />
+      <Item value="Grant" priority="1" />
+      <Item value="Models" priority="1" />
+      <Item value="GrantModel`0" priority="2" />
+      <Item value="_emailProvider" priority="1" />
+      <Item value="g" priority="3" />
+      <Item value="token" priority="7" />
+      <Item value="grant" priority="30" />
+      <Item value="AccessViolationException`0" priority="0" />
+      <Item value="GrantModel" priority="2" />
+      <Item value="client_id" priority="12" />
+      <Item value="code" priority="4" />
+      <Item value="created" priority="1" />
+      <Item value="d" priority="6" />
+      <Item value="developer" priority="0" />
+      <Item value="PartitionKey" priority="1" />
+      <Item value="enabled" priority="1" />
+      <Item value="developerNew" priority="0" />
+      <Item value="OAuthModel" priority="0" />
+      <Item value="RowKey" priority="1" />
+      <Item value="Utils" priority="0" />
+      <Item value="ShortGuid`0" priority="5" />
+      <Item value="dev" priority="17" />
+      <Item value="user_name" priority="0" />
+      <Item value="application_name" priority="0" />
+      <Item value="redirect_uri" priority="3" />
+      <Item value="Exception`0" priority="0" />
+      <Item value="ObjectDumper`0" priority="1" />
+      <Item value="IO" priority="0" />
+      <Item value="NotImplementedException" priority="0" />
+      <Item value="secret" priority="1" />
+      <Item value="short" priority="0" />
+      <Item value="ModelState" priority="0" />
+      <Item value="DeveloperRepository`0" priority="0" />
+      <Item value="GrantRepository`0" priority="0" />
+      <Item value="IOAuth2Manager`0" priority="2" />
+      <Item value="OAuth2Manager`0" priority="0" />
+      <Item value="clientId" priority="1" />
+      <Item value="redirectUri" priority="1" />
+      <Item value="HttpException" priority="0" />
+      <Item value="grantModel" priority="0" />
+      <Item value="expires" priority="0" />
+      <Item value="userGrant" priority="1" />
+      <Item value="client_secret" priority="0" />
+      <Item value="IoC" priority="0" />
+      <Item value="authManager" priority="0" />
+      <Item value="catch" priority="0" />
+      <Item value="actionContext" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.ComponentModel.DataAnnotations.DataType">
+      <Item value="Text" priority="0" />
+      <Item value="MultilineText" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Ana.Domain.Board">
+      <Item value="Name" priority="1" />
+      <Item value="Description" priority="1" />
+      <Item value="UrlName" priority="5" />
+      <Item value="Id" priority="0" />
+      <Item value="CreatedBy" priority="0" />
+      <Item value="CreatedAt" priority="0" />
+      <Item value="UpdatedAt" priority="0" />
+      <Item value="UpdatedBy" priority="0" />
+      <Item value="PartitionKey" priority="0" />
+      <Item value="RowKey" priority="3" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Ana.Web.Models.BoardCreateModel">
+      <Item value="Name" priority="0" />
+      <Item value="Description" priority="0" />
+      <Item value="name" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Microsoft.WindowsAzure.CloudStorageAccount">
+      <Item value="Parse`0" priority="0" />
+      <Item value="FromConfigurationSetting`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Microsoft.WindowsAzure.CloudStorageAccount">
+      <Item value="CreateCloudTableClient`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Microsoft.WindowsAzure.StorageClient.CloudTableClient">
+      <Item value="GetDataServiceContext`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.Routing.RouteCollection">
+      <Item value="MapRoute`0" priority="1" />
+      <Item value="MapPageRoute`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Ana.Utils.UrlTools">
+      <Item value="Slugify`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Ana.Repository.Entities.Azure.BoardAzureModel">
+      <Item value="UrlName" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Type">
+      <Item value="Name" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:T">
+      <Item value="RowKey" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Guid">
+      <Item value="NewGuid`0" priority="1" />
+      <Item value="Parse`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Ana.Web.Controllers.UsersStorage">
+      <Item value="UserIdentities" priority="4" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.List`1">
+      <Item value="Find`0" priority="1" />
+      <Item value="RemoveAll`0" priority="1" />
+      <Item value="Add`0" priority="2" />
+      <Item value="Count" priority="0" />
+      <Item value="All`1" priority="1" />
+      <Item value="ForEach`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Ana.Web.Models.UserIdentity">
+      <Item value="IdentityProvider" priority="0" />
+      <Item value="IdentityValue" priority="1" />
+      <Item value="UserId" priority="2" />
+      <Item value="IdentityId" priority="0" />
+      <Item value="Id" priority="1" />
+      <Item value="Name" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Ana.Web.Models.IdentityClaim">
+      <Item value="IdentityProvider" priority="2" />
+      <Item value="IdentityValue" priority="1" />
+      <Item value="Email" priority="0" />
+      <Item value="Name" priority="1" />
+      <Item value="HasIdentity" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Guid">
+      <Item value="ToString`0" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.String">
+      <Item value="Equals`0" priority="0" />
+      <Item value="Contains`0" priority="0" />
+      <Item value="ToLower`0" priority="1" />
+      <Item value="Slugify`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.String">
+      <Item value="Equals`0" priority="1" />
+      <Item value="Compare`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Microsoft.IdentityModel.Claims.Claim">
+      <Item value="ClaimType" priority="1" />
+      <Item value="Value" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Microsoft.IdentityModel.Claims.ClaimTypes">
+      <Item value="Name" priority="1" />
+      <Item value="Email" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Ana.Web.Models.IdentityClaim">
+      <Item value="ACSProviderClaim" priority="0" />
+      <Item value="ProviderNiceName`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Security.Principal.GenericIdentity">
+      <Item value="Name" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Ana.Web.Models.RegisterClaimsModel">
+      <Item value="UserName" priority="0" />
+      <Item value="Email" priority="0" />
+      <Item value="Name" priority="0" />
+      <Item value="IdentityProvider" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.Security.MembershipUser">
+      <Item value="UserName" priority="1" />
+      <Item value="ProviderName" priority="1" />
+      <Item value="Email" priority="1" />
+      <Item value="ProviderUserKey" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Object">
+      <Item value="ToString`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.IEnumerable`1">
+      <Item value="Select`2" priority="3" />
+      <Item value="Where`1" priority="0" />
+      <Item value="Take`1" priority="0" />
+      <Item value="ToArray`1" priority="0" />
+      <Item value="Contains`1" priority="2" />
+      <Item value="All`1" priority="0" />
+      <Item value="FirstOrDefault`1" priority="0" />
+      <Item value="First`1" priority="0" />
+      <Item value="Last`1" priority="0" />
+      <Item value="ToList`1" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Ana.Utils.ACS.Hrd.HrdIdentityProvider">
+      <Item value="Name" priority="0" />
+      <Item value="LoginUrl" priority="1" />
+      <Item value="LogoutUrl" priority="0" />
+      <Item value="EmailAddressSuffixes" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Ana.Utils.ACS.Identity.IdentityClaim">
+      <Item value="ClearSession`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Web.Security.Membership">
+      <Item value="ValidateUser`0" priority="0" />
+      <Item value="GetUser`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:StructureMap.IInitializationExpression">
+      <Item value="For`0" priority="3" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:StructureMap.Configuration.DSL.Expressions.CreatePluginFamilyExpression`1">
+      <Item value="HttpContextScoped`0" priority="1" />
+      <Item value="Use`0" priority="3" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Ana.Contracts.Business.IBoardManager">
+      <Item value="GetMyBoards`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Ana.Contracts.Repository.IBoardRepository">
+      <Item value="Query" priority="3" />
+      <Item value="CreateIfNotExist`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Linq.IQueryable`1">
+      <Item value="Where`1" priority="15" />
+      <Item value="Select`2" priority="2" />
+      <Item value="ToList`1" priority="6" />
+      <Item value="FirstOrDefault`1" priority="10" />
+      <Item value="ToString`0" priority="2" />
+      <Item value="Count`1" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Ana.Business.Managers.BoardManager">
+      <Item value="CurrentUserId`0" priority="0" />
+      <Item value="GetMyBoards`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Ana.Contracts.Repository.IUserRepository">
+      <Item value="Query" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Ana.Domain.User">
+      <Item value="PartitionKey" priority="1" />
+      <Item value="RowKey" priority="8" />
+      <Item value="UserName" priority="2" />
+      <Item value="Email" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.HttpContextWrapper">
+      <Item value="User" priority="0" />
+      <Item value="Server" priority="0" />
+      <Item value="Session" priority="3" />
+      <Item value="Items" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Security.Principal.IPrincipal">
+      <Item value="Identity" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Ana.Contracts.Business.IUserProvider">
+      <Item value="SetUser`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Ana.Contracts.Business.IUserManager">
+      <Item value="SetCurrentUser`0" priority="3" />
+      <Item value="GetUser`0" priority="4" />
+      <Item value="GetAllUsers`0" priority="1" />
+      <Item value="GetUserByUsername`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.HttpSessionStateBase">
+      <Item value="Abandon`0" priority="0" />
+      <Item value="Add`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Ana.Contracts.Repository.ICardRepository">
+      <Item value="Query" priority="0" />
+      <Item value="AddOrUpdateEntity`0" priority="1" />
+      <Item value="DeleteEntity`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Ana.Domain.Card">
+      <Item value="PartitionKey" priority="1" />
+      <Item value="RowKey" priority="1" />
+      <Item value="IsDone" priority="2" />
+      <Item value="Name" priority="0" />
+      <Item value="Text" priority="0" />
+      <Item value="UpdatedBy" priority="0" />
+      <Item value="CreatedBy" priority="0" />
+      <Item value="UpdatedAt" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Ana.Contracts.Business.ICardManager">
+      <Item value="SetDone`0" priority="0" />
+      <Item value="GetBoardCards`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Ana.Web.Models.CardModel">
+      <Item value="board_id" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Ana.Web.Models.UserModel">
+      <Item value="name" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Ana.Web.Models.BoardModel">
+      <Item value="shared_boards" priority="4" />
+      <Item value="id" priority="0" />
+      <Item value="url_name" priority="4" />
+      <Item value="name" priority="0" />
+      <Item value="created_by" priority="0" />
+      <Item value="is_shared" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Ana.Contracts.Repository.IBoardUserShareRepository">
+      <Item value="Query" priority="1" />
+      <Item value="DeleteIfExist`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Ana.Domain.Azure.Storage.BoardUserShare">
+      <Item value="PartitionKey" priority="2" />
+      <Item value="RowKey" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Ana.Domain.Azure.Storage.UserBoardShare">
+      <Item value="RowKey" priority="1" />
+      <Item value="BoardName" priority="0" />
+      <Item value="BoardUrlName" priority="0" />
+      <Item value="UserName" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Ana.Web.Models.BoardCreateOrEditModel">
+      <Item value="name" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Ana.Contracts.Repository.IUserBoardShareRepository">
+      <Item value="DeleteIfExist`0" priority="0" />
+      <Item value="Query" priority="1" />
+      <Item value="DeleteEntity`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Ana.Web.Models.CardCreateOrEditModel">
+      <Item value="id" priority="0" />
+      <Item value="board_id" priority="0" />
+      <Item value="name" priority="1" />
+      <Item value="text" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.DateTime">
+      <Item value="Now" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Ana.Web.Models.BoardResumeModel">
+      <Item value="id" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Web.Http.RouteParameter">
+      <Item value="Optional" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.Http.HttpConfiguration">
+      <Item value="DependencyResolver" priority="2" />
+      <Item value="Services" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@StructureMap.ObjectFactory">
+      <Item value="GetInstance`1" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Web.HttpRequest">
+      <Item value="ctx" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Ana.Contracts.Repository.IDeveloperRepository">
+      <Item value="CreateIfNotExist`0" priority="1" />
+      <Item value="Query" priority="3" />
+      <Item value="AddEntity`0" priority="0" />
+      <Item value="AddOrUpdateEntity`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Ana.Contracts.Repository.IGrantRepository">
+      <Item value="CreateIfNotExist`0" priority="0" />
+      <Item value="Query" priority="1" />
+      <Item value="AddOrUpdateEntity`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Ana.Domain.Grant">
+      <Item value="PartitionKey" priority="0" />
+      <Item value="RowKey" priority="2" />
+      <Item value="user" priority="3" />
+      <Item value="client_id" priority="2" />
+      <Item value="token" priority="0" />
+      <Item value="code" priority="2" />
+      <Item value="created" priority="1" />
+      <Item value="expires" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Ana.Domain.Developer">
+      <Item value="PartitionKey" priority="2" />
+      <Item value="RowKey" priority="2" />
+      <Item value="enabled" priority="1" />
+      <Item value="application_name" priority="1" />
+      <Item value="client_id" priority="4" />
+      <Item value="redirect_uri" priority="3" />
+      <Item value="secret" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Ana.Utils.ShortGuid">
+      <Item value="NewGuid`0" priority="5" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Ana.Contracts.Business.IEmailProvider">
+      <Item value="SendEmail`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Ana.Utils.ObjectDumper">
+      <Item value="Write`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.IO.TextWriter">
+      <Item value="Synchronized`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Ana.Web.Models.OAuthModel">
+      <Item value="secret" priority="0" />
+      <Item value="user_name" priority="0" />
+      <Item value="id" priority="0" />
+      <Item value="application_name" priority="0" />
+      <Item value="enabled" priority="0" />
+      <Item value="redirect_uri" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Ana.Contracts.Business.IOAuth2Manager">
+      <Item value="GetMyDeveloperSettings`0" priority="1" />
+      <Item value="UpdateDeveloperSettings`0" priority="0" />
+      <Item value="ValidateUserWithToken`0" priority="1" />
+      <Item value="GetHashCode`0" priority="0" />
+      <Item value="GetGrant`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.Mvc.ModelStateDictionary">
+      <Item value="IsValid" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.DateTime">
+      <Item value="AddHours`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Ana.Web.Models.GrantModel">
+      <Item value="code" priority="1" />
+      <Item value="token" priority="1" />
+      <Item value="created" priority="0" />
+      <Item value="user" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.Http.Controllers.HttpActionContext">
+      <Item value="Request" priority="0" />
+    </ItemStatistics>
+  </CompletionStatisticsManager>
+</Configuration>

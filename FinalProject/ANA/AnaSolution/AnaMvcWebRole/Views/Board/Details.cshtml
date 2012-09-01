@@ -1,0 +1,137 @@
+﻿@model Ana.Web.Models.BoardModel
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<div class="container-fluid">
+  <div class="row-fluid">
+    <div class="span9">
+        <ul class="thumbnails">
+          <li class="span12 grey elevate">
+            <!-- Header -->
+            <div class="thumbnail">
+                <div class="row-fluid">
+                    <div class="span5">
+                        <div class="caption">
+                            <h3>@Html.DisplayFor(model => model.name)</h3>
+                            @if (Model.is_shared)
+                            { 
+                            <h4>(by @Model.created_by)</h4>
+                            }
+                            <p>@Html.DisplayFor(model => model.description)</p>
+                        </div>
+                    </div>
+                    <div class="span7">
+                        <div class="btn-toolbar pull-right">
+                            @if (!Model.is_shared)
+                            { 
+                            <div class="btn-group">
+                            
+                                @ButtonLinkIcon("add new card", "Create", "Card", new { board_id = Model.id, board_url_name = Model.url_name }, "icon-plus icon-white", "btn btn-success")
+                            </div>
+                            }
+                            <div class="btn-group">
+                                @Html.ActionLink("edit", "Edit", "Board", null, new { @class = "btn btn-primary" })
+                              
+                                @if (!Model.is_shared)
+                                {
+                                @Html.ActionLink("delete", "Delete", "Board", null, new { @class = "btn btn-danger" })
+                                 }
+                            </div>
+                            @if (!Model.is_shared)
+                            {
+                            <div class="btn-group">
+                                @ButtonLinkIcon("share", "Share", "Board", null, "icon-share-alt icon-white", "btn btn-warning")
+                            </div>
+                            }
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- body -->
+            <div class="thumbnail">
+                <div class="row-fluid">
+                    <div class="span12">
+                        <ul class="thumbnails">
+                        @if (Model.cards == null || Model.cards.Count() == 0)
+                        {
+                                <ul>
+                                    <li>.. no cards found</li>
+                                </ul>
+                        }
+                        else
+                        {
+                            for (int i = 0; i < Model.cards.Count(); i++)
+                            {
+                                var card = Model.cards.ElementAt(i);
+                                if ((i + 1) % 3 == 0)
+                                {
+                                    @Html.DisplayFor(model => card, new { is_shared = Model.is_shared });
+                                            @:</ul>
+                                       @: </div>
+                                    @:</div>
+                                @:<div class="row-fluid">
+                                    @:<div class="span12">
+                                        @:<ul class="thumbnails">
+                            
+                                }
+                                else
+                                {
+                                    @Html.DisplayFor(model => card, new { is_shared = Model.is_shared })
+                                }
+
+                            }
+                        }
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!-- footer -->
+            <div class="thumbnail">
+                <div class="row-fluid">
+                    <div class="6">
+                        <div class="pull-left">
+                            <i class="icon-user"></i> @Html.DisplayFor(model => model.created_by) @@ @Html.DisplayFor(model => model.created_at)
+                        </div>
+                    </div>
+                    <div class="6">
+                        <div class="pull-right">
+                            <i class="icon-edit"></i> @Html.DisplayFor(model => model.updated_by) @@ @Html.DisplayFor(model => model.updated_at)
+                        </div>
+                    </div>
+                </div>
+            </div>
+          </li>
+        </ul>
+    </div>
+    <div class="span3">
+        <!--Sidebar content-->
+        @Html.Partial("_BoardMenu")
+    </div>
+  </div>
+</div>
+
+@*<a href="#myModal" role="button" class="btn" data-toggle="modal">Launch demo modal</a>*@
+ 
+<div class="modal hide" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-header">
+    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+    <h3 id="myModalLabel">Modal header</h3>
+  </div>
+  <div class="modal-body">
+    <p>One fine body…</p>
+  </div>
+  <div class="modal-footer">
+    <button class="btn" data-dismiss="modal" aria-hidden="true">Close</button>
+    <button class="btn btn-primary">Save changes</button>
+  </div>
+</div>
+
+
+
+@helper ButtonLinkIcon(string linkText, string action, string controller, object routeValues, string icon, string btnclass)
+    {
+    <a class="@btnclass" href="@Url.Action(action, controller, routeValues)"><i class="@icon"></i> @linkText</a>
+}
+

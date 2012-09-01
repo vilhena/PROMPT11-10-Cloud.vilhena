@@ -1,0 +1,38 @@
+﻿@model Ana.Web.Models.OAuthApproveModel
+@{
+    ViewBag.Title = "Auth";
+    Layout = "~/Views/Shared/_LayoutNoMenu.cshtml";
+}
+
+<div class="row">
+    <div class="span2">
+        <p>
+        </p>
+    </div>
+    <div class="span8">
+        <div class="hero-grey elevate">
+            <h2>
+                Autorize application to access your ANA data?</h2>
+            <p>
+                Please enter your user name and password. @Html.ActionLink("Register", "Register")
+                if you don't have an account.
+            </p>
+            @using (Html.BeginForm("Approval", "OAuth2")) {
+    
+                @Html.HiddenFor(m => m.client_id);
+                @Html.HiddenFor(m => m.redirect_uri);
+                <input type="hidden" value="@Model" name="client_id" />
+    
+                <input type="submit" value="Allow access" class="btn btn-large btn-success" />
+    
+                @Html.ActionLink("No thanks", "Reprove", null,new {@class="btn btn-large btn" });
+            }
+
+        </div>
+    </div>
+    <div class="span2">
+        <p>
+        </p>
+    </div>
+</div>
+

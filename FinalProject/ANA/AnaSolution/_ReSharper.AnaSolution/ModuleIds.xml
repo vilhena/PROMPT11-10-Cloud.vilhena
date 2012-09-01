@@ -1,0 +1,13 @@
+<Modules>
+  <Module PersistentId="F3EF0287-8279-4D72-824B-146A229C0F2F" ModuleId="AnaMvcWebRole" />
+  <Module PersistentId="F7DF7EF1-1319-40BD-8B81-8D3B267E8429" ModuleId="AnaBusinessLogic" />
+  <Module PersistentId="3FADA9E2-0111-4ABD-B352-D22429BFC5BA" ModuleId="AnaDomain" />
+  <Module PersistentId="B455BCA1-1104-40A4-9D58-1510469D29AB" ModuleId="Ana.WorkerRole" />
+  <Module PersistentId="F3DDBE9A-BC95-42D5-9146-22EA1CC8D1D4" ModuleId="Ana.Utils" />
+  <Module PersistentId="8A930E6F-91D2-42EC-AB37-CE68CB9E2148" ModuleId="Ana.Repository" />
+  <Module PersistentId="011811B0-351B-4B66-BC52-D808A8BDDCFA" ModuleId="AspProviders" />
+  <Module PersistentId="336C52DD-E26A-4145-9E76-8233A3177E7C" ModuleId="Ana.Contracts" />
+  <Module PersistentId="2367A0A8-14AE-4527-8102-0AE64C2B044F" ModuleId="Ana.IoC" />
+  <Module PersistentId="C67123F0-BBC3-401A-A143-40FA6159BC67" ModuleId="RepositoryProvider" />
+  <Module PersistentId="3DA9C68C-7D30-44CB-940B-7FD3F7E921A0" ModuleId="Ana.Api" />
+</Modules>

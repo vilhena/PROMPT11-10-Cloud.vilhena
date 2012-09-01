@@ -1,0 +1,25 @@
+﻿
+.elevate
+{
+    zoom:1; /* This enables hasLayout, which is required for older IE browsers */
+    filter: progid:DXImageTransform.Microsoft.Shadow(color='#b0b0b0', Direction=135, Strength=3);
+    -moz-box-shadow:2px 2px 2px #b0b0b0;
+    -webkit-box-shadow:2px 2px 2px #b0b0b0;
+    box-shadow:2px 2px 2px #b0b0b0;
+}
+
+
+.hero-grey {
+  padding: 60px;
+  margin-bottom: 30px;
+  background-color: #eeeeee;
+}
+
+
+.grey {
+    background-color:#eeeeee;
+}
+
+.postit {
+    background-color:#FEFABC;
+}

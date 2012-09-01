@@ -1,0 +1,197 @@
+﻿@model Ana.Web.Models.OAuthModel
+@{
+    ViewBag.Title = "Developer";
+}
+<div class="row">
+    <div class="span2">
+        <p></p>
+    </div>
+    <div class="span8">
+        <div class="hero-grey elevate">
+            <h2>Developer Zone</h2>
+            <p>
+                Here you can configure your app to acess data using oauth and web.
+            </p>
+            @if (Model.enabled)
+            {
+                <fieldset>
+                    @Html.HiddenFor(m => m.id)
+                    <legend>Application Information</legend>
+                        <div class="control-group">
+                            @Html.LabelFor(model => model.application_name)
+                            <div class="controls">
+                                @Html.DisplayFor(m => m.application_name)
+                            </div>
+                        </div>
+                        <div class="control-group">
+                            @Html.LabelFor(model => model.client_id)
+                            <div class="controls">
+                                @Html.DisplayFor(m => m.client_id)
+                            </div>
+                        </div>
+                        <div class="control-group">
+                            @Html.LabelFor(model => model.redirect_uri)
+                            <div class="controls">
+                                @Html.DisplayFor(m => m.redirect_uri)
+                            </div>
+                        </div>
+                        <div class="control-group">
+                            
+                            @Html.LabelFor(model => model.secret)
+                            <div class="controls">
+                                @Html.DisplayFor(m => m.secret)
+                            </div>
+                        </div>
+                </fieldset>
+                @Html.ActionLink("Edit", "Edit", "Developer", null, new { @class = "btn btn-large btn-primary" });
+            }
+            else
+            {
+                @Html.ActionLink("Start Using Now!", "Edit", "Developer", null, new { @class = "btn btn-large btn-success" });
+            }
+        </div>
+    </div>
+    <div class="span2">
+        <p></p>
+    </div>
+
+</div>
+<div class="row">
+    <div class="span12">
+        <h2>Web Api Documentation</h2>
+        <table class="table table-bordered table-hove">
+            <thead>
+                <tr>
+                    <th>Action</th>
+                    <th>URI</th>
+                    <th>Description</th>
+                    <th>Request</th>
+                    <th>Response</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>GET</td>
+                    <td>/api/board</td>
+                    <td>Gets the current loged on user boards</td>
+                    <td>
+                        <code>N/A</code>
+                    </td>
+                    <td>
+                        <code>...</code>
+                    </td>
+                </tr>
+                <tr>
+                    <td>GET</td>
+                    <td>/api/board/{id}</td>
+                    <td>Gets the board with {id}</td>
+                    <td>
+                        <code>N/A</code>
+                    </td>
+                    <td>
+                        <code>...</code>
+                    </td>
+                </tr>
+                <tr>
+                    <td>POST</td>
+                    <td>/api/board</td>
+                    <td>Creates a board</td>
+                    <td>
+                        <code>...</code>
+                    </td>
+                    <td>
+                        <code>...</code>
+                    </td>
+                </tr>
+                <tr>
+                    <td>PUT</td>
+                    <td>/api/board/{id}</td>
+                    <td>Updates a board with {id}</td>
+                    <td>
+                        <code>...</code>
+                    </td>
+                    <td>
+                        <code>...</code>
+                    </td>
+                </tr>
+                <tr>
+                    <td>DELETE</td>
+                    <td>/api/board/{id}</td>
+                    <td>Deletes a board with {id}</td>
+                    <td>
+                        <code>...</code>
+                    </td>
+                    <td>
+                        <code>...</code>
+                    </td>
+                </tr>
+                <tr>
+                    <td>GET</td>
+                    <td>/api/card/</td>
+                    <td>Gets all my Cards</td>
+                    <td>
+                        <code>N/A</code>
+                    </td>
+                    <td>
+                        <code>...</code>
+                    </td>
+                </tr>
+                <tr>
+                    <td>GET</td>
+                    <td>/api/card/{id}</td>
+                    <td>Gets the card with {id}</td>
+                    <td>
+                        <code>N/A</code>
+                    </td>
+                    <td>
+                        <code>...</code>
+                    </td>
+                </tr>
+                <tr>
+                    <td>POST</td>
+                    <td>/api/card/</td>
+                    <td>Creates a new card</td>
+                    <td>
+                        <code>...</code>
+                    </td>
+                    <td>
+                        <code>...</code>
+                    </td>
+                </tr>
+                <tr>
+                    <td>PUT</td>
+                    <td>/api/card/{id}</td>
+                    <td>Updates a new card with {id}</td>
+                    <td>
+                        <code>...</code>
+                    </td>
+                    <td>
+                        <code>...</code>
+                    </td>
+                </tr>
+                <tr>
+                    <td>PATCH</td>
+                    <td>/api/card/{id}/done</td>
+                    <td>Sets the card with {id} maked as done or undone</td>
+                    <td>
+                        <code>N/A</code>
+                    </td>
+                    <td>
+                        <code>...</code>
+                    </td>
+                </tr>
+                <tr>
+                    <td>DELETE</td>
+                    <td>/api/card/{id}</td>
+                    <td>Deletes the card with {id}</td>
+                    <td>
+                        <code>...</code>
+                    </td>
+                    <td>
+                        <code>...</code>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>

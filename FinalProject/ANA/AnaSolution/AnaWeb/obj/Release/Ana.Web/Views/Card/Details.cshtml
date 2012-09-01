@@ -1,0 +1,49 @@
+﻿@model Ana.Web.Models.CardModel
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<div class="row">
+    <div class="span8 offset2">
+        <p>
+            @Html.ActionLink("« Back to Board", "Details", "Board", new { id = Model.board_id }, new { @class = "btn btn-small" })
+        </p>
+    </div>
+</div>
+<div class="row">
+    <div class="span2">
+        <p>@Html.HiddenFor(m=>m.board_id)</p>
+    </div>
+    <div class="span8">
+        <div class="hero-grey elevate postit">
+            <h2>@Html.DisplayFor(m => m.name, new { placeholder = "Board Name" })</h2>
+            <hr />
+            <p>
+            </p>
+            <div>
+                @Html.DisplayFor(m => m.text)
+            </div>
+            <div style="height:200px">
+                <!-- attachments -->
+            </div>
+            <hr />
+            <div class="row-fluid">
+                    <div class="6">
+                        <div class="pull-left">
+                            <i class="icon-user"></i> @Html.DisplayFor(model => model.created_by) @@ @Html.DisplayFor(model => model.created_at)
+                        </div>
+                    </div>
+                    <div class="6">
+                        <div class="pull-right">
+                            <i class="icon-edit"></i> @Html.DisplayFor(model => model.updated_by) @@ @Html.DisplayFor(model => model.updated_at)
+                        </div>
+                    </div>
+                </div>
+        </div>
+    </div>
+    <div class="span2">
+        <p></p>
+    </div>
+
+</div>

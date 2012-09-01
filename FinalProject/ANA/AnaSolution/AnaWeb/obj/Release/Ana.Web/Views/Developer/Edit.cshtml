@@ -1,0 +1,61 @@
+﻿@model Ana.Web.Models.OAuthModel
+@{
+    ViewBag.Title = "Edit Developer";
+}
+<div class="row">
+    <div class="span2">
+        <p></p>
+    </div>
+    <div class="span8">
+        <div class="hero-grey elevate">
+            <h2>Developer Zone</h2>
+            <p>
+                Here you can confire your app to acess data using oauth.
+            </p>
+            @using (Html.BeginForm())
+            {
+                @Html.ValidationSummary(true)
+                
+                    
+                    <fieldset>
+                        @Html.HiddenFor(m=>m.id)
+                        @Html.HiddenFor(m=>m.client_id)
+                        @Html.HiddenFor(m=>m.secret)
+                        <legend>Application Information</legend>
+                            <div class="control-group">
+                                @Html.LabelFor(model => model.application_name)
+                                <div class="controls">
+                                    @Html.TextBoxFor(m => m.application_name, new { placeholder = "Board Name" })
+                                    @Html.ValidationMessageFor(model => model.application_name)
+                                </div>
+                            </div>
+                            <div class="control-group">
+                                @Html.LabelFor(model => model.redirect_uri)
+                                <div class="controls">
+                                    @Html.TextBoxFor(m => m.redirect_uri)
+                                    @Html.ValidationMessageFor(model => model.redirect_uri)
+                                </div>
+                            </div>
+                            <label class="checkbox">
+                                @Html.CheckBoxFor(m => m.enabled, new { @class="checkbox" })
+                                Enable Developer Application
+                            </label>
+                    
+                            <div class="control-group">
+                                <div class="controls">
+                                <button type="submit" class="btn btn-large btn-primary">Update</button>
+                                @Html.ActionLink("Cancel", "Index", "Developer", null, new { @class = "btn btn-large" })
+                                </div>
+                            </div>
+                         
+                    </fieldset>
+                    
+                
+            }
+        </div>
+    </div>
+    <div class="span2">
+        <p></p>
+    </div>
+
+</div>
